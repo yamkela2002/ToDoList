@@ -12,6 +12,31 @@ ul {
     list-style: none;
     padding: 0;
 }
+/* 
+ .container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(214,97,250);
+    background: linear-gradient(90deg, rgba(214,97,250,1) 0%, rgba(97,44,116,1) 56%, rgba(82,37,99,1) 63%, rgba(4,1,10,1) 100%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-style: italic;
+    background-size: cover;
+    background-image: url(sunset.jpg);
+    background-position: 0%;
+    
+
+    
+}
 
 li {
     display: flex;
@@ -19,7 +44,7 @@ li {
     justify-content: space-between;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid ;
     border-radius: 5px;
 } 
 
