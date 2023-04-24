@@ -48,16 +48,13 @@ function edit(e){
     let update =prompt("update task", );
     let a =i.previousElementSibling;
     e.parentElement.childNodes[1].innerHTML = update
-    //i.innerHTML =update;
     console.log(e.parentElement.childNodes[0].innerHTML = update);
 
+    localStorage.setItem('items', JSON.stringify(update));
+    saveItems();
 }
-
-
-
 
 function saveItems() {
     const items = Array.from(list.children).map((li) => li.querySelector('.item').textContent);
     localStorage.setItem('item',JSON.stringify(items));
 }
-
